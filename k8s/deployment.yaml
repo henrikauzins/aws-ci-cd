@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: web
-          image: 030595024239.dkr.ecr.eu-west-2.amazonaws.com/hello:latest
+          image: 030595024239.dkr.ecr.eu-west-2.amazonaws.com/hello-eks-repo:latest
           ports:
             - containerPort: 8000
           readinessProbe:
