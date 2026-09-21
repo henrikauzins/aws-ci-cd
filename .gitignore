@@ -1,0 +1,7 @@
+*.pem
+.oci/
+kubeconfig
+trust-policy.json
+permissions.json
+
+*.tar.gz
